@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Attendance System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Student Attendance System</h1>
+    <p>Mark student attendance</p>
+
+    <div class="student">
+        <span>Rajalaxmi</span>
+        <button onclick="markAttendance('Rajalaxmi', 'Present')">
+            Present
+        </button>
+        <button onclick="markAttendance('Rajalaxmi', 'Absent')">
+            Absent
+        </button>
+    </div>
+
+    <h2>Attendance Record</h2>
+    <ul id="records"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
